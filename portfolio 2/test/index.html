@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Paralax animation JS | SamBaltiev</title>
+	<link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+<section>
+	<img src="images/background.jpg" id="stars">
+	
+<div id="text">	
+	<div class="inner">
+
+			<div class="book">
+
+				<input type="checkbox" id="c1">
+				<input type="checkbox" id="c2">
+				<input type="checkbox" id="c3">
+				<div id="cover">
+
+					 <div class="circle-spin">
+		<div class="logo-spin"></div>
+			<div class="text-spin">
+				<p>Sam Baltiev - Creative UX/UI Design - Frontend</p>
+			</div>
+	</div>
+				</div>
+				<div class="flip-book">
+					<div class="flip" id="p1">
+						<div class="back">
+							<img src="images/t4.jpeg">
+							<label class="back-btn" for="c1">BACK</label>
+						</div>
+						<div class="front">
+							<h2>Apple</h2>
+							<p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p>
+							<label class="next-btn" for="c1">NEXT</label>
+						</div>
+					</div>
+
+
+					<div class="flip" id="p2">
+						<div class="back">
+							<img src="images/t2.jpg">
+							<label class="back-btn" for="c2">BACK</label>
+						</div>
+						<div class="front">
+							<h2>Peach</h2>
+							<p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p>
+							<label class="next-btn" for="c2">NEXT</label>
+						</div>
+					</div>
+
+					<div class="flip" id="p3">
+						<div class="back">
+							
+							<label class="back-btn" for="c3">BACK</label>
+						</div>
+						<div class="front">
+							<h2>Berry</h2>
+							<p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p>
+							<label class="next-btn" for="c3">NEXT</label>
+						</div>
+
+					</div>
+					
+				</div>
+				<div class="container">
+					
+                <div class="hamburger-menu " id="menubtn" onclick="toggle()">
+                    <div class="bar" id="menu"></div>
+
+                </div>
+
+
+    <!--------------curtain------------->
+                <div id="curtain">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                     <!--   <ul>
+                            <li><a href="about.html" style="--i: 0.05s">about</a></li>
+                            <li><a href="#" style="--i: 0.1s">portfolio</a></li>
+                            <li><a href="#" style="--i: 0.15s">testimonials</a></li>
+                            <li><a href="#" style="--i: 0.2s">services</a></li>
+                        </ul>-->
+                    <div class="folder-layout">
+                        <a href="about.html"><div class="folder">
+
+                            <div class="folder-back">
+                                <div class="paper"></div>
+                                <div class="paper"></div>
+                                <div class="paper"></div>
+                                <div class="folder-front"><h1>ABOUT</h1></div>
+                                <div class="folder-front right"></div>
+                            </div>
+                        </div></a>
+
+                        <a href="about.html"><div class="folder">
+                            <div class="folder-back">
+                                <div class="paper"></div>
+                                <div class="paper"></div>
+                                <div class="paper"></div>
+                                <div class="folder-front"><h1>PORTFOLIO</h1></div>
+                                <div class="folder-front right"></div>
+                            </div>
+                        </div></a>
+
+
+                        <a href="about.html"><div class="folder">
+                            <div class="folder-back">
+                                <div class="paper"></div>
+                                <div class="paper"></div>
+                                <div class="paper"></div>
+                                <div class="folder-front"><h1>TESTIMONIALS</h1></div>
+                                <div class="folder-front right"></div>
+                            </div>
+                        </div></a>
+
+
+                        <a href="about.html"><div class="folder">
+                            <div class="folder-back">
+                                <div class="paper"></div>
+                                <div class="paper"></div>
+                                <div class="paper"></div>
+                                <div class="folder-front"><h1>SERVICES</h1></div>
+                                <div class="folder-front right"></div>
+                            </div>
+                        </div></a>
+                        
+                    </div>
+                        
+                </div>
+
+            </div>
+
+</div><!------container end---->
+
+			</div>
+			
+
+	</div>
+
+
+</div>	
+
+	<a href="#" id="btn">Play</a>
+	<img src="images/desk.png" id="mountains_front">
+	<img src="images/laptop2.png"  id="mountains_behind">
+
+</section>
+
+
+
+
+<script src="anime.min.js"></script>
+<script src="script.js"></script>
+</body>
+</html>
+
+
+
+
+
